@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials - Replace with your network details
-const char* ssid = "Polito";
-const char* password = "12345678";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // WebSocket server on port 81
 WebSocketsServer webSocket = WebSocketsServer(81);
